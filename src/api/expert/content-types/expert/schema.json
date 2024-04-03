@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experts",
+  "info": {
+    "singularName": "expert",
+    "pluralName": "experts",
+    "displayName": " Эксперты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

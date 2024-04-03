@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organics",
+  "info": {
+    "singularName": "organic",
+    "pluralName": "organics",
+    "displayName": "Органический",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
